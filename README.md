@@ -54,10 +54,6 @@ Lo que une las tres cosas es el mismo criterio: **entregar un producto acabado, 
 
 ## 🛠️ Stack Tecnológico
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,nodejs,php,react,tailwind,js,bootstrap,supabase,postgres,mysql,sqlite,blender,godot,gimp,inkscape,git,github,debian,linux,windows,vscode,docker,vercel,gcp,figma&theme=dark" alt="Stack tecnológico" />
-</p>
-
 | Dominio | Tecnologías & Herramientas |
 | :--- | :--- |
 | **Diseño & Interfaz** | ![GIMP](https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white) ![Inkscape](https://img.shields.io/badge/Inkscape-000000?style=for-the-badge&logo=inkscape&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) |
@@ -120,6 +116,39 @@ Validación y sanitización en el borde de cada endpoint, Row Level Security en 
 Si una tarea se repite, se automatiza. Despliegues, respaldos, reportes y flujos de trabajo los resuelvo con **n8n**, APIs y scripts propios en lugar de intervención manual constante.
 
 **Resultado:** menos errores humanos y más tiempo para diseño y arquitectura.
+</details>
+
+---
+
+## 🌐 Arquitectura de proyectos web
+
+<details>
+<summary><b>Estructura de referencia para aplicaciones full-stack</b></summary>
+
+<br>
+
+Separación estricta por capas, con toda la red encapsulada en un único punto de control:
+
+```
+proyecto/
+├── backend/
+│   ├── app/
+│   │├── config.py          # configuración desde variables de entorno
+│   │   ├── blueprints/      # rutas agrupadas por módulo de negocio
+│   │   ├── services/        # integración con servicios de terceros
+│   │   └── utils/           # validación, sanitización y helpers
+│   └── tests/               # pruebas de integración y de aislamiento
+└── frontend/
+    └── src/
+        ├── components/      # piezas reutilizables (Modal, NavBar, ...)
+        ├── context/         # estado global de sesión y usuario
+        ├── pages/           # una pantalla por sección
+        ├── services/        # único punto de salida hacia la red
+        └── utils/           # formato de moneda, fechas y validaciones
+```
+
+> **Regla de oro:** ninguna pantalla llama a la red directamente. Todo pasa por `services/api.js`, de modo que cambiar la dirección del backend es editar un solo archivo.
+
 </details>
 
 ---
@@ -225,37 +254,6 @@ Cada integración vive detrás de una interfaz propia, de modo que si mañana el
 
 ---
 
-## 🌐 Arquitectura de proyectos web
-
-<details>
-<summary><b>Estructura de referencia para aplicaciones full-stack</b></summary>
-
-<br>
-
-Separación estricta por capas, con toda la red encapsulada en un único punto de control:
-
-```
-proyecto/
-├── backend/
-│   ├── app/
-│   │├── config.py          # configuración desde variables de entorno
-│   │   ├── blueprints/      # rutas agrupadas por módulo de negocio
-│   │   ├── services/        # integración con servicios de terceros
-│   │   └── utils/           # validación, sanitización y helpers
-│   └── tests/               # pruebas de integración y de aislamiento
-└── frontend/
-    └── src/
-        ├── components/      # piezas reutilizables (Modal, NavBar, ...)
-        ├── context/         # estado global de sesión y usuario
-        ├── pages/           # una pantalla por sección
-        ├── services/        # único punto de salida hacia la red
-        └── utils/           # formato de moneda, fechas y validaciones
-```
-
-> **Regla de oro:** ninguna pantalla llama a la red directamente. Todo pasa por `services/api.js`, de modo que cambiar la dirección del backend es editar un solo archivo.
-
-</details>
-
 <details>
 <summary><b>🔁 Las dos arquitecturas comparten la misma filosofía</b></summary>
 
@@ -266,8 +264,6 @@ Tanto en **web** como en **videojuegos** aplico el mismo principio: capas con re
 Lo que funciona para un juego indie bien estructurado funciona igual de bien para una aplicación web en producción.
 
 </details>
-
----
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=39C5BB&height=4&section=divider" alt="" width="100%" />
