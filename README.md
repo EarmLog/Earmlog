@@ -20,7 +20,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=39C5BB&height=4&section=divider" alt="" width="100%" />
 </div>
 
-## 💡 Sobre Mí
+## Sobre Mí
 
 Soy **Eduardo Rodríguez**, profesionalmente tres cosas a la vez:
 
@@ -34,7 +34,7 @@ Lo que une las tres cosas es el mismo criterio: **entregar un producto acabado, 
 
 ---
 
-## 📊 Métricas
+## Métricas
 
 <div align="center">
 
@@ -52,7 +52,11 @@ Lo que une las tres cosas es el mismo criterio: **entregar un producto acabado, 
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flask,nodejs,php,react,tailwind,js,bootstrap,supabase,postgres,mysql,sqlite,blender,godot,gimp,inkscape,git,github,debian,linux,windows,vscode,docker,vercel,gcp,figma&theme=dark" alt="Stack tecnológico" />
+</p>
 
 | Dominio | Tecnologías & Herramientas |
 | :--- | :--- |
@@ -66,10 +70,10 @@ Lo que une las tres cosas es el mismo criterio: **entregar un producto acabado, 
 
 ---
 
-## 🧱 Principios de Ingeniería
+## Principios de Ingeniería
 
 <details open>
-<summary><b>🏗️ Arquitectura modular sobre dependencias</b></summary>
+<summary><b>Arquitectura modular sobre dependencias</b></summary>
 
 <br>
 
@@ -79,7 +83,7 @@ Prefiero **mi propio código modular** antes que un enjambre de librerías que r
 </details>
 
 <details>
-<summary><b>🎨 El acabado visual es parte del entregable</b></summary>
+<summary><b>El acabado visual es parte del entregable</b></summary>
 
 <br>
 
@@ -89,7 +93,7 @@ Ninguna entrega está terminada hasta que se ve bien. Trabajo la interfaz con la
 </details>
 
 <details>
-<summary><b>⚡ Rendimiento como requisito, no como adorno</b></summary>
+<summary><b>Rendimiento como requisito, no como adorno</b></summary>
 
 <br>
 
@@ -99,7 +103,7 @@ El rendimiento se diseña desde el inicio. Consultas indexadas, caché donde rea
 </details>
 
 <details>
-<summary><b>🔒 Seguridad por defecto</b></summary>
+<summary><b>Seguridad por defecto</b></summary>
 
 <br>
 
@@ -109,7 +113,7 @@ Validación y sanitización en el borde de cada endpoint, Row Level Security en 
 </details>
 
 <details>
-<summary><b>🤖 Automatización de lo repetitivo</b></summary>
+<summary><b>Automatización de lo repetitivo</b></summary>
 
 <br>
 
@@ -120,7 +124,7 @@ Si una tarea se repite, se automatiza. Despliegues, respaldos, reportes y flujos
 
 ---
 
-## 🌐 Arquitectura de proyectos web
+## Arquitectura de proyectos web
 
 <details>
 <summary><b>Estructura de referencia para aplicaciones full-stack</b></summary>
@@ -153,7 +157,7 @@ proyecto/
 
 ---
 
-## 🕹️ Arquitectura de proyectos de videojuegos
+## Arquitectura de proyectos de videojuegos
 
 En un juego la arquitectura no está sola en el código: está en **no acoplar sistemas**. Trabajo con una estructura de seis capas donde cada una tiene una responsabilidad única y una dirección de dependencia clara.
 
@@ -175,7 +179,7 @@ juego/
 </details>
 
 <details>
-<summary><b>📦 Assets — la materia prima visual y sonora</b></summary>
+<summary><b>Assets — la materia prima visual y sonora</b></summary>
 
 <br>
 
@@ -189,7 +193,7 @@ Los assets se organizan por tipo y se referencian **por ruta**, nunca se embeben
 </details>
 
 <details>
-<summary><b>🧩 Módulos — la lógica de juego reutilizable</b></summary>
+<summary><b>Módulos — la lógica de juego reutilizable</b></summary>
 
 <br>
 
@@ -201,7 +205,7 @@ Es lo que permite reutilizar el mismo sistema de inventario en varios juegos de 
 </details>
 
 <details>
-<summary><b>🎬 Escenas — el mundo compuesto</b></summary>
+<summary><b>Escenas — el mundo compuesto</b></summary>
 
 <br>
 
@@ -215,7 +219,7 @@ Las escenas son la capa de **composición**: instancian y conectan módulos para
 </details>
 
 <details>
-<summary><b>📊 Recursos — los datos, sin lógica</b></summary>
+<summary><b>Recursos — los datos, sin lógica</b></summary>
 
 <br>
 
@@ -225,7 +229,7 @@ La ventaja es directa: **balancear sin tocar código.** Subir el daño de un arm
 </details>
 
 <details>
-<summary><b>⚙️ Núcleos — la columna vertebral del juego</b></summary>
+<summary><b>Núcleos — la columna vertebral del juego</b></summary>
 
 <br>
 
@@ -241,7 +245,7 @@ Los núcleos (`core/`) son singletons que existen una sola vez durante toda la e
 </details>
 
 <details>
-<summary><b>🌐 Servicios — todo lo que toca el exterior</b></summary>
+<summary><b>Servicios — todo lo que toca el exterior</b></summary>
 
 <br>
 
@@ -255,7 +259,7 @@ Cada integración vive detrás de una interfaz propia, de modo que si mañana el
 ---
 
 <details>
-<summary><b>🔁 Las dos arquitecturas comparten la misma filosofía</b></summary>
+<summary><b>Las dos arquitecturas comparten la misma filosofía</b></summary>
 
 <br>
 
