@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&height=190&section=header&text=Eduardo%20Rodr%C3%ADguez&fontSize=44&fontColor=ffffff&animation=fadeIn&fontY=46&desc=Dise%C3%B1ador%20%E2%80%A2%20Desarrollador%20Full-Stack%20%E2%80%A2%20Desarrollador%20Indie&descAlign=50&descSize=17&descColor=39C5BB&animationDuration=8" alt="Eduardo Rodríguez" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&height=130&section=header&text=Eduardo%20Rodr%C3%ADguez&fontSize=42&fontColor=ffffff&animation=fadeIn&animationDuration=8" alt="Eduardo Rodríguez" width="100%" />
 </div>
+
+<h3 align="center">Diseñador · Desarrollador Full-Stack · Desarrollador Indie</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/ESTADO-DISPONIBLE%20PARA%20PROYECTOS-39C5BB?style=for-the-badge&logo=vercel&logoColor=white" alt="Disponible para proyectos" />
