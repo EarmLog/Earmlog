@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&height=190&section=header&text=Eduardo%20Rodr%C3%ADguez&fontSize=44&fontColor=ffffff&animation=fadeIn&fontY=46&desc=Dise%C3%B1ador%20%E2%80%A2%20Desarrollador%20Full-Stack%20%E2%80%A2%20Desarrollador%20Indie&descAlign=50&descSize=17&descColor=39C5BB&animationDuration=8" alt="Eduardo Rodríguez — Diseñador, Desarrollador Full-Stack y Desarrollador Indie" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0D1117&height=190&section=header&text=Eduardo%20Rodr%C3%ADguez&fontSize=44&fontColor=ffffff&animation=fadeIn&fontY=46&desc=Dise%C3%B1ador%20%E2%80%A2%20Desarrollador%20Full-Stack%20%E2%80%A2%20Desarrollador%20Indie&descAlign=50&descSize=17&descColor=39C5BB&animationDuration=8" alt="Eduardo Rodríguez" width="100%" />
 </div>
 
 <p align="center">
